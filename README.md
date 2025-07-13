@@ -29,15 +29,15 @@
 ## 🖥️ Installation
 
 ### 1. Clone this repository:
-```bash
+
 git clone https://github.com/yourusername/KahaUdoge.git
 cd KahaUdoge
 
-2. Install dependencies
+### 2. Install dependencies
 
 pip install mysql-connector-python
 
-3. Import the database
+### 3. Import the database
 Open MySQL CLI or Workbench
 
 Run the SQL file:
@@ -45,12 +45,12 @@ Run the SQL file:
 SOURCE KahaUdogeSQL.sql;
 This will create the flight_booking_system6 database with tables, stored procedures, and sample data.
 
-4. Run the application
+### 4. Run the application
 
 python KahaUdogegui.py
 Make sure the KahaUdoge.ico file is in the same directory for the custom window icon.
 
-⚙️ Configuration
+### ⚙️ Configuration
 Update your MySQL connection in KahaUdogegui.py if needed:
 
 db_connection = mysql.connector.connect(
@@ -60,7 +60,7 @@ db_connection = mysql.connector.connect(
     database="flight_booking_system6"
 )
 
-🚀 Planned Features
+### 🚀 Planned Features
 🔐 Admin authentication
 
 📊 Reporting dashboard
