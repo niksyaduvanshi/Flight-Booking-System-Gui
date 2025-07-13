@@ -30,7 +30,7 @@
 
 ### 1. Clone this repository:
 
-git clone https://github.com/yourusername/KahaUdoge.git
+git clone https://github.com/niksyaduvanshi/KahaUdoge.git
 cd KahaUdoge
 
 ### 2. Install dependencies
